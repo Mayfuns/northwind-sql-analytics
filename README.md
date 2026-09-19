@@ -67,9 +67,9 @@ A PostgreSQL project analysing the Northwind relational business dataset across 
 - Inventory-value calculations
 - Top-N analysis
 
-## Database setup
+## Database context
 
-The repository also includes the Northwind relational schema and seeded data in the database setup file, giving the analytical queries a complete reproducible foundation.
+The analysis uses the standard Northwind relational model across customers, orders, order details, products, categories, suppliers, employees and related entities.
 
 ## Repository structure
 
