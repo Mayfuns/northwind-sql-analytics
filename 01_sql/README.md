@@ -1,17 +1,42 @@
-# SQL / Database Setup
+# SQL Analysis
 
-## Uploaded file
+This folder contains the Northwind PostgreSQL business-analysis queries.
 
-[Open Northwind SQL File.sql](Northwind%20SQL%20File.sql)
+## Main analysis file
 
-This file is a PostgreSQL database dump used to recreate the Northwind database.
+[Open Northwind SQL Project.sql](Northwind%20SQL%20Project.sql)
 
-It contains:
+The script analyses:
 
-- `CREATE TABLE` definitions
-- Northwind source-data `INSERT` statements
-- Primary-key constraints
-- Foreign-key constraints
-- Relationships across customers, orders, order details, products, categories, employees, territories, suppliers, shippers and regions
+- Orders by customer country
+- Supplier and product relationships
+- Employee order handling
+- Customer sales value
+- High-volume employees
+- Category and product counts
+- Top customers and products
+- Customers with zero orders
+- Suppliers with zero products
+- INNER, LEFT, RIGHT and FULL OUTER JOIN behaviour
+- UNION and UNION ALL across customer/supplier data
+- Average product price by category
+- Customer order thresholds
+- Employee sales performance
+- Top customers by purchase value
+- Inventory value by category
+- Orders placed in 1998
+- Supplier unit sales
+- Top products by sales revenue
 
-A separate analytical-query script should be added here if you want the repository to demonstrate the sales/customer/product SQL analysis described in the portfolio.
+## SQL techniques
+
+- PostgreSQL
+- JOINs
+- GROUP BY
+- HAVING
+- Aggregate functions
+- COALESCE
+- EXTRACT
+- UNION / UNION ALL
+- Top-N analysis
+- Sales and inventory calculations
